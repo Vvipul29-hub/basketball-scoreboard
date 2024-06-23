@@ -24,7 +24,7 @@ function onClickButton2() {
 function onClickButton3() {
     homeScore += 3
     document.getElementById('homeScore').textContent = homeScore
-    checkHighlight()
+    checkHighlight();
 }
 
 function onClickButton4() {
