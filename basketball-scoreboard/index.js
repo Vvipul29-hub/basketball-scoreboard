@@ -12,7 +12,7 @@ let guestbb = document.getElementsByClassName('guestbackboard')[0]
 function onClickButton1() {
     homeScore += 1
     document.getElementById('homeScore').textContent = homeScore
-    checkHighlight()
+    checkHighlight();
 }
 
 function onClickButton2() {
