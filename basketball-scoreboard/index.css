@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.homebackboard {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    position: relative;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guestbackboard {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    position: relative;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    color: #F94F6D;
+    font-family:monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content:space-evenly;
+    width: 155px;
+    height: 45px;
+    font-size: 20px;
+    margin: 20px;
+    /* display: inline-block; */
+}
+
+#button1, #button2, #button3, #button4, #button5, #button6 {
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+    color: #9AABD8;
+    cursor: pointer;
+    outline: none;
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover, #newGame:hover{
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+#newGame {
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: transparent;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.newgame-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
